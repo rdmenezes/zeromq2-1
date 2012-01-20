@@ -27,7 +27,7 @@ extern "C" {
 
 /*  Handle DSO symbol visibility                                             */
 #if defined _WIN32
-#   if defined DLL_EXPORT
+#   if defined ZMQ_DLL_EXPORT
 #       define ZMQ_EXPORT __declspec(dllexport)
 #   else
 #       define ZMQ_EXPORT __declspec(dllimport)

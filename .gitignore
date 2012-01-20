@@ -60,3 +60,7 @@ zeromq-*.tar.gz
 zeromq-*.zip
 builds/redhat/zeromq.spec
 
+
+/output
+/builds/windows/msvc/libzmq/libzmq.vcxproj.filters
+/builds/windows/msvc/libzmq/libzmq.vcxproj.user
